@@ -1,0 +1,66 @@
+.sub-header {
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  border: 1px solid red;
+  background-color: green;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.wrapper {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  margin-top: 150px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.box-1 {
+  background-color: green;
+  top: 50px;
+  left: 50px;
+  z-index: 5;
+}
+.box-2 {
+  background-color: yellow;
+  top: 100px;
+  left: 100px;
+  z-index: 6;
+}
+.box-3 {
+  background-color: red;
+  top: 150px;
+  left: 150px;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: relative;
+  margin-top: 150px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
